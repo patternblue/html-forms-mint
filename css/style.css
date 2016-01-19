@@ -1,0 +1,111 @@
+
+body{
+	width: 54.5%;
+	margin: 4% auto;
+}
+
+/* Header */
+header{
+	margin: 10px 0;
+}
+
+header a{
+	font-size: 16px;
+	margin: 0 10px;
+}
+
+.mint-logo, .signup{
+	display: inline;
+}
+.signup{
+	float: right;
+}
+
+/*Main box*/
+#main{
+	clear: both;
+	border: solid #ddd;
+	padding: 20px 25px;
+}
+
+.outer{
+	margin-top: 7%;
+	padding: 0;
+}
+.inner{
+	padding: 0 4%;
+}
+
+#form-section{
+	float: left;
+}
+#form-section, aside{
+	display: block;
+}
+form{
+	padding: 0 0;
+	margin: 0 0;
+}
+form h1{
+	font-size: 30px;
+}
+form input{
+	display: block;
+}
+form input, label{
+	margin: 6% 0;
+}
+input[type="email"], input[type="password"]{
+	width: 80%;
+	height: 26px;
+}
+input[type="submit"]{
+	color: #fff;
+	background: #8cf;
+	width: 100px;
+	height: 50px;
+}
+#remember-me{
+	display: inline;
+}
+#form-section, .terms-of-use{
+	width: 65%;
+}
+aside{
+	background: #d8eaea;
+	float: right;
+	width: 26%;
+	height: 100%;
+	margin: auto 4%;
+	color: #666;
+}
+aside h2{
+	text-align: center;
+	margin-top: 14px;
+}
+.terms-of-use{
+	clear: both;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+/*Footer*/
+footer nav li{
+	display: inline;
+	margin: 0 20px;
+}
+footer nav, footer div{
+	margin: 30px 0;
+	text-align: center;
+}
+/*Misc*/
+a{
+	text-decoration: none;
+}
+h2{
+	font-size: 20px;
+}
+
+label{
+	font-size: 14px;
+}
